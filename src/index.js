@@ -120,7 +120,7 @@ const brainPrime = (count = 3) => {
     console.log(`Question: ${secret}`);
     const answer = readlineSync.question('Your answer: ') === 'yes';
     if (answer !== isPrime) {
-      console.log(`"${map[answer]}" is wrong answer ;(. Correct answer was "${map[isPrime]}".`);
+      console.log(`'${map[answer]}' is wrong answer ;(. Correct answer was '${map[isPrime]}'.`);
       console.log(`Let's try again, ${name}!`);
       return false;
     }
